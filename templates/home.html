@@ -1,0 +1,9 @@
+{% extends "main.layout.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block content %}
+  {% for msg in messages %}
+    <div>{{ msg }}</div>
+  {% endfor %}
+{% endblock %}

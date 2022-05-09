@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/pico-1.5.0/pico.min.css" />
+    <link crossorigin="anonymous" rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
+    <title>{% block title %}{{ title }} - Antiokh{% endblock %}</title>
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><a href="/">Home</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Antiokh</h1>
+    </header>
+    <main class="container">{% block content %}{% endblock %}</main>
+    <script src="/js/htmx-1.7.0/htmx.min.js" />
+  </body>
+</html>
