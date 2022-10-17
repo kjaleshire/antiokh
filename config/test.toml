@@ -1,0 +1,6 @@
+environment = "test"
+debug = true
+
+[database]
+echo = true
+url = "postgres://test.url"

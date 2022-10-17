@@ -1,0 +1,9 @@
+environment = "development"
+workers = 1
+
+[database]
+url = "postgres://postgres@localhost"
+
+[twitter]
+consumer_token = "twitter-dev-consumer-key"
+consumer_secret = "twitter-dev-consumer-secret"
