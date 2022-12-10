@@ -10,7 +10,7 @@ struct HomeTemplate {
 
 pub async fn root(_req: HttpRequest) -> impl Responder {
     HomeTemplate {
-        messages: vec!["hello world!", "from antiokh!!"],
+        messages: vec!["Hello World!", "~ from Antiokh"],
     }
     .to_response()
 }
